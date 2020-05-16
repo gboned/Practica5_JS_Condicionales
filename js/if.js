@@ -4,7 +4,7 @@
  * 
  */
 
-console.log("Jugaremos a 'Piedra, Papel, Tijera' al mejor de tres.")
+console.log("Jugaremos a 'Piedra, Papel, Tijera' al mejor de tres.");
 
 function juego() {
     return opcionJugador1("patata");
@@ -20,6 +20,6 @@ function opcionJugador1(opcion) {
     }
 
     else {
-        console.log("La opción escogida no existe. Por favor, introduce piedra, papel o tijera".);
+        console.log("La opción escogida no existe. Por favor, introduce piedra, papel o tijera.");
     }
 }
