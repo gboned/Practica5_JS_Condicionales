@@ -27,10 +27,6 @@ function opcionJugador1() {
         return opcion;
     }
 
-    else if (opcion === "piedra" || opcion == "papel" || opcion == "tijera") {
-        return opcion;
-    }
-
     else {
         console.log("La opción escogida no existe. Por favor, introduce Piedra, Papel o Tijera (Recuerda que deben empezar por mayúscula).");
         // Se ejecuta de nuevo esta misma función para que el Jugador 1 introduzca su opción.
@@ -45,10 +41,6 @@ function opcionJugador2() {
     opcionJ2 = opcion;
 
     if (opcion === "Piedra" || opcion == "Papel" || opcion == "Tijera") {
-        return opcion;
-    }
-
-    else if (opcion === "piedra" || opcion == "papel" || opcion == "tijera") {
         return opcion;
     }
 
