@@ -5,7 +5,7 @@
  */
 
 console.log("Jugaremos a 'Piedra, Papel, Tijera' al mejor de tres.");
-console.log("Cada jugador debe introducir su opción; piedra, papel o tijera. Pueden comenzar tanto con minúscula como con mayúscula.")
+console.log("Cada jugador debe introducir su opción; Piedra, Papel o Tijera. Tienen que empezar por mayúscula.")
 
 var opcionJ1;
 var opcionJ2;
@@ -31,7 +31,7 @@ function opcionJugador1() {
     }
 
     else {
-        console.log("La opción escogida no existe. Por favor, introduce piedra, papel o tijera.");
+        console.log("La opción escogida no existe. Por favor, introduce Piedra, Papel o Tijera (Recuerda que deben empezar por mayúscula).");
     }
 }
 
@@ -57,7 +57,12 @@ function opcionJugador2() {
 // Creo la función que devuelve cuál es el ganador de la ronda.
 function ganador() {
 
-    if ( opcionJ1 === "Piedra" && opcionJ2 === "Papel") {
+    // Situaciones en las que gana el Jugador 2.
+    if (opcionJ1 === "Piedra" && opcionJ2 === "Papel" || opcionJ1 === "Papel" && opcionJ2 === "Tijera" || opcionJ1 === "Tijera" && opcionJ2 === "Piedra") {
         console.log("El ganador es Jugador 2 porque " + opcionJ2 + " gana a " + opcionJ1);
+    }
+    
+    else if (opcionJ1 === "Papel" && opcionJ2 === "") {
+        
     }
 }
