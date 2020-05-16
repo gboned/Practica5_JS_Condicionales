@@ -61,8 +61,14 @@ function ganador() {
     if (opcionJ1 === "Piedra" && opcionJ2 === "Papel" || opcionJ1 === "Papel" && opcionJ2 === "Tijera" || opcionJ1 === "Tijera" && opcionJ2 === "Piedra") {
         console.log("El ganador es Jugador 2 porque " + opcionJ2 + " gana a " + opcionJ1);
     }
-    
-    else if (opcionJ1 === "Papel" && opcionJ2 === "") {
-        
+
+    // Situaciones en las que gana el Jugador 1.
+    else if (opcionJ2 === "Piedra" && opcionJ1 === "Papel" || opcionJ2 === "Papel" && opcionJ1 === "Tijera" || opcionJ2 === "Tijera" && opcionJ1 === "Piedra") {
+        console.log("El ganador es Jugador 1 porque " + opcionJ1 + " gana a " + opcionJ2);
+    }
+
+    // Todo lo demás es empate.
+    else {
+        console.log("Ambos Jugadores han escogido la misma opción, por lo que hay un empate.")
     }
 }
