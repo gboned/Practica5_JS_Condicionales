@@ -29,3 +29,21 @@ function opcionJugador1() {
         console.log("La opción escogida no existe. Por favor, introduce piedra, papel o tijera.");
     }
 }
+
+// Creo la función que pida al usuario introducir la opción del segundo jugador.
+function opcionJugador2() {
+
+    var opcion = window.prompt("Selecciona la opción del Jugador 2");
+
+    if (opcion === "Piedra" || opcion == "Papel" || opcion == "Tijera") {
+        return opcion;
+    }
+
+    else if (opcion === "piedra" || opcion == "papel" || opcion == "tijera") {
+        return opcion;
+    }
+
+    else {
+        console.log("La opción escogida no existe. Por favor, introduce piedra, papel o tijera.");
+    }
+}
