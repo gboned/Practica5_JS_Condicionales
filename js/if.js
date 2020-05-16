@@ -72,3 +72,6 @@ function ganador() {
         console.log("Ambos Jugadores han escogido la misma opción, por lo que hay un empate.")
     }
 }
+
+// Llamo a la función principal para que se ejecute al cargar la página.
+juego();
