@@ -32,6 +32,8 @@ function opcionJugador1() {
 
     else {
         console.log("La opción escogida no existe. Por favor, introduce Piedra, Papel o Tijera (Recuerda que deben empezar por mayúscula).");
+        // Se ejecuta de nuevo esta misma función para que el Jugador 1 introduzca su opción.
+        opcionJugador1();
     }
 }
 
@@ -51,6 +53,8 @@ function opcionJugador2() {
 
     else {
         console.log("La opción escogida no existe. Por favor, introduce Piedra, Papel o Tijera (Recuerda que deben empezar por mayúscula).");
+        // Se ejecuta de nuevo esta misma función para que el Jugador 2 introduzca su opción.
+        opcionJugador2();
     }
 }
 
