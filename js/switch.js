@@ -63,16 +63,19 @@ function ganador() {
     Ti = "Tijera";
 
     switch (opcionJ1 | opcionJ2) {
+        // Casos en los que gana el Jugador 2.
         case opcionJ1.Pi | opcionJ2.Pa:
         case opcionJ1.Pa | opcionJ2.Ti:
         case opcionJ1.Ti | opcionJ2.Pi:
             console.log("El ganador es Jugador 2 porque " + opcionJ2 + " gana a " + opcionJ1);
             break;
+        // Casos en los que gana el Jugador 1.
         case opcionJ2.Pi | opcionJ1.Pa:
         case opcionJ2.Pa | opcionJ1.Ti:
         case opcionJ2.Ti | opcionJ1.Pi:
             console.log("El ganador es Jugador 1 porque " + opcionJ1 + " gana a " + opcionJ1);
-            break;  
+            break;
+        // Casos en los que los dos Jugadores empatan.
         default:
             console.log("Ambos Jugadores han escogido la misma opción, por lo que hay un empate.")
     }
