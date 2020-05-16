@@ -7,6 +7,7 @@
 console.log("Jugaremos a 'Piedra, Papel, Tijera' al mejor de tres.");
 console.log("Cada jugador debe introducir su opción; Piedra, Papel o Tijera. Tienen que empezar por mayúscula.")
 
+// Añado variables globales de las opciones de los Jugadores.
 var opcionJ1;
 var opcionJ2;
 
