@@ -4,7 +4,7 @@
  * 
  */
 
-console.log("Jugaremos a 'Piedra, Papel, Tijera' al mejor de tres.");
+console.log("Jugaremos a 'Piedra, Papel, Tijera'.");
 console.log("Cada jugador debe introducir su opción; Piedra, Papel o Tijera. Tienen que empezar por mayúscula.")
 
 // Añado variables globales de las opciones de los Jugadores.
@@ -72,3 +72,7 @@ function ganador() {
 
 // Llamo a la función principal para que se ejecute al cargar la página.
 juego();
+
+// Desde aquí hago que se ejecute el juego desde el fichero de switch.js.
+console.log("Ahora se ejecutará el juego con el fichero de switch.js");
+juegoSwitch();
