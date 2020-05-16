@@ -43,14 +43,11 @@ function opcionJugador2() {
 
     switch (opcion) {
         case 'Piedra':
-            console.log(opcion);
-            break;
+            return opcion;
         case 'Papel':
-            console.log(opcion);
-            break;
+            return opcion;
         case 'Tijera':
-            console.log(opcion);
-            break;
+            return opcion;
         default:
             console.log("La opción escogida no existe. Por favor, introduce Piedra, Papel o Tijera (Recuerda que deben empezar por mayúscula).")
             opcionJugador2();
