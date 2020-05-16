@@ -9,7 +9,7 @@ console.log("Cada jugador debe introducir su opción; piedra, papel o tijera. Pu
 
 // Creo la función que inicializará el juego.
 function juego() {
-    return "El Jugador 1 ha elegido " + opcionJugador1();
+    return "El Jugador 1 ha elegido " + opcionJugador1() + ", y el Jugador 2 ha elegido " + opcionJugador2();
 }
 
 // Creo la función que pida al usuario introducir la opción del primer jugador.
