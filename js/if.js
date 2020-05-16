@@ -50,7 +50,7 @@ function opcionJugador2() {
     }
 
     else {
-        console.log("La opción escogida no existe. Por favor, introduce piedra, papel o tijera.");
+        console.log("La opción escogida no existe. Por favor, introduce Piedra, Papel o Tijera (Recuerda que deben empezar por mayúscula).");
     }
 }
 
