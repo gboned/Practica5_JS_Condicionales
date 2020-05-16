@@ -75,4 +75,4 @@ juego();
 
 // Desde aquí hago que se ejecute el juego desde el fichero de switch.js.
 console.log("Ahora se ejecutará el juego con el fichero de switch.js");
-juegoSwitch();
+juegoSwitch().juegoSwitch;
