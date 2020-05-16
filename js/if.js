@@ -7,10 +7,12 @@
 console.log("Jugaremos a 'Piedra, Papel, Tijera' al mejor de tres.");
 console.log("Cada jugador debe introducir su opción; piedra, papel o tijera. Pueden comenzar tanto con minúscula como con mayúscula.")
 
+// Creo la función que inicializará el juego.
 function juego() {
     return opcionJugador1();
 }
 
+// Creo la función que pida al usuario introducir la opción del primer jugador.
 function opcionJugador1() {
 
     var opcion = window.prompt("Selecciona la opción del Jugador 1");
