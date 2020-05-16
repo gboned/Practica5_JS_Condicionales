@@ -38,3 +38,24 @@ function opcionJugador1() {
             opcionJugador1();
     }
 }
+
+function opcionJugador2() {
+
+    var opcion = window.prompt("Selecciona la opción del Jugador 1");
+    opcionJ2 = opcion;
+
+    switch (opcion) {
+        case 'Piedra':
+            console.log(opcion);
+            break;
+        case 'Papel':
+            console.log(opcion);
+            break;
+        case 'Tijera':
+            console.log(opcion);
+            break;
+        default:
+            console.log("La opción escogida no existe. Por favor, introduce Piedra, Papel o Tijera (Recuerda que deben empezar por mayúscula).")
+            opcionJugador2();
+    }
+}
